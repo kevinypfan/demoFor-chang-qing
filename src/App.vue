@@ -83,10 +83,11 @@
                 price: this.price
               }
               this.products.push(addList);
-              }
                 this.name = "";
                 this.qty = "";
                 this.price = "";
+              }
+                
             },
             deleteProduct(id){
                 this.products.splice(id,1);
